@@ -387,7 +387,7 @@
         } else if (this._formatter.hasStyle('direct')) {
           this.source = ">" + from + "<";
         } else {
-          this.source = from;
+          this.source = "<" + from + "> ";
         }
         return this._formatter.setContent(msg);
       }
