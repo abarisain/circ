@@ -484,3 +484,75 @@ ul {
   background-color: #999;
   border-radius: 8px;
 }
+
+/* DT's mac theme */
+body {
+  font-family: "Lucida Grande";
+  font-size: 12px;
+}
+
+.message:not(.privmsg) + .message.privmsg .source-content-container {
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+.message.privmsg + .message.privmsg .source-content-container {
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
+.message.update.privmsg {
+  color: black !important;
+}
+
+.message.update.privmsg.self {
+  color: black !important;
+}
+
+.message.update.privmsg.mention {
+  color: black !important;
+  background-color: #ffe1ac;
+}
+
+#rooms-and-nicks {
+  background-color: #d9dee6;
+}
+
+#rooms-and-nicks .room.server {
+  background-color: #d9dee6;
+}
+
+#rooms-and-nicks .room.selected {
+  background: linear-gradient(to bottom, #66b1e7 0%,#2f7ccc 100%);
+  border-top:1px solid #519ada;
+  border-bottom:1px solid #2b6fba;
+  color: white;
+}
+
+#rooms-and-nicks .room .remove-button {
+  font-size: 20px;
+}
+
+#rooms-and-nicks .room.selected .content-item {
+  text-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.57);
+}
+
+#rooms-and-nicks .room.selected .remove-button {
+  color: white;
+}
+
+.nicks li:nth-child(odd) {
+  background-color: #d9dee6;
+}
+
+#messages-container {
+  background-color: #d9e0e7;
+}
+
+#rooms-and-nicks .room.channel .content-item {
+  border-left: 0px;
+}
+
+#input {
+  font-size: 12px;
+  height: 25px;
+}
