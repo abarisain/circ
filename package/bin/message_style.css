@@ -44,7 +44,7 @@
 
 /* Nickname Colors. Taken from Textual */
 
-.message.update.privmsg.self .source-content-container { 
+.message.update.privmsg.self .source-content-container .source { 
   color: #ea0d68; 
 }
 
